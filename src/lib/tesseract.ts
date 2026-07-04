@@ -1,13 +1,13 @@
-import { createWorker } from "tesseract.js";
+// import { createWorker } from "tesseract.js";
 
-export async function extractText(image: string) {
-  const worker = await createWorker("eng");
+// export async function extractText(image: string) {
+//   const worker = await createWorker("eng");
 
-  const {
-    data: { text },
-  } = await worker.recognize(image);
+//   const {
+//     data: { text },
+//   } = await worker.recognize(image);
 
-  await worker.terminate();
+//   await worker.terminate();
 
-  return text;
-}
+//   return text;
+// }
