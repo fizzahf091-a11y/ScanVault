@@ -9,7 +9,7 @@ import TipsButton from "./TipsButton";
 
 export default function ScanContainer() {
   return (
-    <section className="mx-auto w-full max-w-[1320px] px-5 py-8">
+    <section className="mx-auto w-full max-w-[1320px] px-0 py-20">
 
       {/* Main Card */}
       <div className="rounded-[28px] border border-[#24314a] bg-[#090f1d] p-6 shadow-[0_0_30px_rgba(0,170,255,.08)]">
@@ -18,7 +18,7 @@ export default function ScanContainer() {
         <div className="mb-6 flex items-start justify-between">
 
           <div>
-            <h1 className="text-[42px] font-extrabold uppercase leading-none text-white">
+            <h1 className="text-[30px] font-extrabold uppercase leading-none text-white">
               SCAN DOCUMENT
             </h1>
 

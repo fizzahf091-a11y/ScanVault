@@ -7,7 +7,14 @@ import {
   BarChart3,
 } from "lucide-react";
 
-export const features = [
+// TypeScript structure define kar diya taakay Next.js build me koi error na aaye
+interface FeatureData {
+  icon: React.ComponentType<{ size?: number; className?: string }>;
+  title: string;
+  description: string;
+}
+
+export const features: FeatureData[] = [
   {
     icon: ScanSearch,
     title: "AI OCR Scanner",
@@ -44,6 +51,4 @@ export const features = [
     description:
       "Monitor scans, leads, conversions and business performance through a beautiful dashboard.",
   },
-  
-  
 ];
